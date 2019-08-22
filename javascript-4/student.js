@@ -25,11 +25,13 @@ let faveColors = ['blue', 'black', 'white']
 // CODE HERE
 let me = {
     firstName: 'Spencer',
-    superHeroName: 'Stupendous Spencer',
+    superHeroName: 'Spence-Dog',
     homeTown: 'St. George',
     superPowers: ['invisibility', 'speed', 'flying'],
-    superPowerXP: Math.floor(Math.random() * 100) + 1,
-    profileImage: 'https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg'
+    superPowerXP: function(){Math.floor(Math.random() * 100) + 1},
+    profileImage: function() {
+        return `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`
+    }
 }
 
 //////////////////Step 3////////////////////
