@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.opening {
+    width: 100vw;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.header{
+    width: 100vw;
+    height: 10vh;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+}
+.companyBox{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-hold {
+    height: 100%;
+    width: 35vw;
+}
+.nav {
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.hero {
+    height: 60vh;
+    width: 100vw;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.green-squares {
+    height: 60vh;
+    width: 100vw;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.square {
+    height: 280px;
+    width: 280px;;
+    background: #04e9b0;
+    border-radius: 10%;
+}
+.content-box {
+    height: 60vh;
+    width: 100vw;
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rectangle {
+    height: 280px;
+    width: 500px;
+    background: orange;
+}
+.text-box {
+    height: 280px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-box {
+    height: 280px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    height: 200px;
+    width: 280px;
+    background: url(./elephant.jpeg);
+    background-repeat: no-repeat;
+}
